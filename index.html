@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="YunGaem 윤갬" />
+        <meta property="og:description" content="Have a colorful life!💐" />
+        <meta property="og:image" content="공유할 이미지" />
+        <title>YunGaem</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }   
+            body {
+                background-color : pink;
+            }
+            .profile {
+                width : 100px;
+                height : 100px;
+
+                background-color : white;
+                border-radius: 100%;
+
+                border : 2px solid white;
+
+                background-image:url('프로필.jpg');
+                background-position : center;
+                background-size : cover;
+
+            }
+            .main {
+                color : white;
+                font-size : 20px;
+                
+                margin-top : 30px;
+                margin-bottom : 10px;
+
+            }
+            .sub {
+                color : white;
+                font-size : 14px;
+
+                margin-top : 0px;
+                margin-bottom : 30px;
+    
+
+ 
+            }
+
+            .wrap {
+             
+                width: 300px;
+                margin: 30px auto 0px auto;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+            .wrap > a {
+                width : 300px;
+                height : 50px;
+
+                background-color : white;
+                border-radius : 8px;
+
+                margin-bottom : 10px;
+
+                font-size : 14px;
+                font-weight : bold;
+                color : pink;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                text-decoration: none;
+
+                box-shadow : 2px 2px 1px 0px rgb(240, 237, 207);
+
+            }
+            .wrap > a:hover {
+                background-color :#f2f2f2;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main"> YunGaem 윤갬   </h1>
+            <p class="sub">Have a Colorful Life!💐</p> 
+            <a target="_blank" href="https://www.instagram.com/yun.gaem_/">인스타그램(그림)</a>
+            <a target="_blank" href="https://www.instagram.com/yun.gaem_pic/">인스타그램(사진)</a>
+            <a target="_blank" href="https://m.blog.naver.com/dbsrudg/">블로그</a>
+            <a target="_blank" href="https://grafolio.naver.com/dbsrudg">배경화면</a>
+           
+        </div>
+    </body>
+    </html>
